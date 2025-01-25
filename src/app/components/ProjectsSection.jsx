@@ -5,7 +5,7 @@ import { Parallax } from 'react-scroll-parallax';
 const projects = [
   {
     title: 'Restaurant',
-    description: 'Landing Page for a restaurant',
+    description: 'Landing Page',
     image: '/luli.png',
     tags: ['UX/UI Design', 'Web Design', 'Web Development'],
     url: 'https://appluli.netlify.app/',
