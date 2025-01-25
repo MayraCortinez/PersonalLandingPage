@@ -41,9 +41,9 @@ function ProjectsSection() {
 
         </div>
 
-        <div className="space-y-32">
+        <div className="space-y-48">
           {projects.map((project, index) => (
-            <div key={project.title} className="grid md:grid-cols-2 gap-12 items-center">
+            <div key={project.title} className="grid md:grid-cols-2 gap-16 items-center">
 <Parallax speed={-10}>
   <div className="relative group overflow-hidden rounded-xl shadow-lg">
     <img

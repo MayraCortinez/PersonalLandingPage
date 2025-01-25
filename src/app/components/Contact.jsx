@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative flex items-center justify-center min-h-screen py-20 text-center text-white">
+    <section id="contact" className="mt-10 relative flex items-center justify-center h-lvh  text-center py-40 text-white">
       <VantaBackground />
       <div className="relative mx-4 max-w-4xl md:mx-auto bg-orange-800/40 p-12 rounded-lg">
         <h2 className="text-4xl font-bold mb-6 title">Contact</h2>
@@ -39,7 +39,7 @@ const Contact = () => {
         >
           {({ isSubmitting, isValid }) => (
             <Form className="flex flex-col gap-4">
-              {/* Input Nombre */}
+
               <div>
                 <Field
                   type="text"
@@ -50,7 +50,6 @@ const Contact = () => {
                 <ErrorMessage name="nombre" component="p" className="text-red-900 text-base" />
               </div>
 
-              {/* Input Email */}
               <div>
                 <Field
                   type="email"
@@ -72,7 +71,6 @@ const Contact = () => {
                 <ErrorMessage name="mensaje" component="p" className="text-red-900 text-base" />
               </div>
 
-              {/* Botón de Envío */}
               <button
                 type="submit"
                 disabled={isSubmitting || !isValid}
