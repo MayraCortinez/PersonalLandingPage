@@ -9,7 +9,6 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'], 
-        title: ['Georgia', 'serif'],
       },
   },
 },

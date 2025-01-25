@@ -14,7 +14,7 @@
 
  /* Fondo artístico de acuarela */
  body {
-
+  font-family:'Segoe UI', sans-serif;
   margin: auto;
   overflow-x: hidden;
   color: rgb(18, 1, 41);
@@ -40,7 +40,7 @@
 }
 
 .gradient-text { 
-  font-family: 'Helvetica', serif ;
+  font-family: 'Helvetica', sans ;
   background-clip: text;
   font-weight: bold; 
   background: linear-gradient(to right, #3c03f9, #ff4b0f); 
@@ -58,4 +58,9 @@
 
 .text-shadow {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.title{
+  font-family: Georgia, serif;
+  color: rgb(59, 0, 59);
 }
