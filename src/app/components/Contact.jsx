@@ -28,9 +28,9 @@ const Contact = () => {
   return (
     <section id="contact" className="relative flex items-center justify-center min-h-screen py-20 text-center text-white">
       <VantaBackground />
-      <div className="relative mx-4 max-w-4xl md:mx-auto bg-black/30 p-12 rounded-lg">
+      <div className="relative mx-4 max-w-4xl md:mx-auto bg-orange-800/40 p-12 rounded-lg">
         <h2 className="text-4xl font-bold mb-6 sans">Contact</h2>
-        <p className="text-2xl mb-6 sans">Are you interested in working together? Get in touch!</p>
+        <p className=" text-lg md:text-xl mb-8 sans">Are you interested in working together? Get in touch!</p>
 
         <Formik
           initialValues={{ nombre: '', email: '', mensaje: '' }}
@@ -45,9 +45,9 @@ const Contact = () => {
                   type="text"
                   name="nombre"
                   placeholder="Name"
-                  className="p-3 md:px-16 rounded-lg bg-gray-700/60 text-white"
+                  className="p-3 w-4/5 md:w-2/3 rounded-lg bg-white/30 text-gray-700 placeholder-white"
                 />
-                <ErrorMessage name="nombre" component="p" className="text-red-200 text-sm" />
+                <ErrorMessage name="nombre" component="p" className="text-red-900 text-lg" />
               </div>
 
               {/* Input Email */}
@@ -56,9 +56,9 @@ const Contact = () => {
                   type="email"
                   name="email"
                   placeholder="E-mail"
-                  className="p-3 md:px-16 rounded-lg bg-gray-700/60 text-white"
+                  className="p-3 w-4/5 md:w-2/3 rounded-lg bg-white/30 text-gray-700 placeholder-white"
                 />
-                <ErrorMessage name="email" component="p" className="text-red-200 text-sm" />
+                <ErrorMessage name="email" component="p" className="text-red-900 text-lg" />
               </div>
 
               {/* Textarea Mensaje */}
@@ -67,9 +67,9 @@ const Contact = () => {
                   as="textarea"
                   name="mensaje"
                   placeholder="Message"
-                  className="p-3 md:px-16 rounded-lg bg-gray-700/60 text-white"
+                  className="p-3 w-4/5 md:w-2/3 rounded-lg bg-white/30 text-gray-700 placeholder-white"
                 />
-                <ErrorMessage name="mensaje" component="p" className="text-red-200 text-sm" />
+                <ErrorMessage name="mensaje" component="p" className="text-red-900 text-lg" />
               </div>
 
               {/* Botón de Envío */}

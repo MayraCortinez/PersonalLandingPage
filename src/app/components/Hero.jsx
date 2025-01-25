@@ -14,14 +14,6 @@ const Hero = () => {
         >
           Transforming ideas into unique experiences
         </motion.h1>
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1 }}
-          className="mt-4 text-xl md:text-2xl sans text-shadow text-orange-950 tracking-wide font-sans font-normal text-opacity-90 p-4"
-        >
-          I am Mayra Cortinez,<br /> a developer passionate about innovation and functionality.
-        </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
