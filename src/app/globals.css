@@ -14,7 +14,7 @@
 
  /* Fondo artístico de acuarela */
  body {
-  font-family: 'Poppins', sans-serif;
+
   margin: auto;
   overflow-x: hidden;
   color: rgb(18, 1, 41);
@@ -23,6 +23,7 @@
 
 /* Botones personalizados */
 .btn {
+  font-family:'Trebuchet MS', sans-serif;
   background:  linear-gradient(90deg, #f99f6f, #ff5887);
   color: white;
   padding: 0.5rem 1.5rem;

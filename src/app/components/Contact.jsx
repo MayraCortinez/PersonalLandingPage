@@ -29,7 +29,7 @@ const Contact = () => {
     <section id="contact" className="relative flex items-center justify-center min-h-screen py-20 text-center text-white">
       <VantaBackground />
       <div className="relative mx-4 max-w-4xl md:mx-auto bg-orange-800/40 p-12 rounded-lg">
-        <h2 className="text-4xl font-bold mb-6 sans">Contact</h2>
+        <h2 className="text-4xl font-bold mb-6 title">Contact</h2>
         <p className=" text-lg md:text-xl mb-8 sans">Are you interested in working together? Get in touch!</p>
 
         <Formik
@@ -47,7 +47,7 @@ const Contact = () => {
                   placeholder="Name"
                   className="p-3 w-4/5 md:w-2/3 rounded-lg bg-white/30 text-gray-700 placeholder-white"
                 />
-                <ErrorMessage name="nombre" component="p" className="text-red-900 text-lg" />
+                <ErrorMessage name="nombre" component="p" className="text-red-900 text-base" />
               </div>
 
               {/* Input Email */}
@@ -58,7 +58,7 @@ const Contact = () => {
                   placeholder="E-mail"
                   className="p-3 w-4/5 md:w-2/3 rounded-lg bg-white/30 text-gray-700 placeholder-white"
                 />
-                <ErrorMessage name="email" component="p" className="text-red-900 text-lg" />
+                <ErrorMessage name="email" component="p" className="text-red-900 text-base" />
               </div>
 
               {/* Textarea Mensaje */}
@@ -69,7 +69,7 @@ const Contact = () => {
                   placeholder="Message"
                   className="p-3 w-4/5 md:w-2/3 rounded-lg bg-white/30 text-gray-700 placeholder-white"
                 />
-                <ErrorMessage name="mensaje" component="p" className="text-red-900 text-lg" />
+                <ErrorMessage name="mensaje" component="p" className="text-red-900 text-base" />
               </div>
 
               {/* Botón de Envío */}
