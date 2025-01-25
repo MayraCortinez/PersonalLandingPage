@@ -22,14 +22,15 @@
 
 /* Botones personalizados */
 .btn {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid #FF5722;
-  color: #FF5722;
+  background-color: rgba(247, 246, 246, 0.806);
+  border: 2px solid #ff56229b;
+  color: #fe3b00;
   padding: 0.5rem 1.5rem;
   font-weight: bold;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
 }
 
 .btn:hover {

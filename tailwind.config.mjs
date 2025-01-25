@@ -7,10 +7,6 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: "#f59e0b", 
-        accent: "#0ea5e9", 
-      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'], 
       },
