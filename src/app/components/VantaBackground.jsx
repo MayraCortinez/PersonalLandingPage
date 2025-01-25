@@ -14,10 +14,10 @@ const VantaBackground = () => {
       gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
-      highlightColor: 0xfcd0b0,
-      midtoneColor: 0xffa3e5,
-      lowlightColor: 0x50587,
-      baseColor: 0xeeeeff,
+      highlightColor: 0xfcd7c9,
+      midtoneColor: 0xe1afc6,
+      lowlightColor: 0x7b7bbb,
+      baseColor: 0xededed,
       speed: 2.00,
       zoom: 1.60
     });

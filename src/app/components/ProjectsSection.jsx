@@ -53,7 +53,7 @@ function ProjectsSection() {
     />
     <div className="absolute inset-0 bg-gradient-to-r from-purple-200 to-green-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
     <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-      <p className="text-lg text-gray-600">{project.textContent}</p>
+      <p className="text-sm md:text-lg text-gray-600">{project.textContent}</p>
     </div>
   </div>
 </Parallax>

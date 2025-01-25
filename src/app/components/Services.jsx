@@ -17,8 +17,6 @@ const Services = () => {
       ref={sectionRef}
       className="w-3/4 relative m-auto py-20 px-4 bg-[url('/bg1.png')] bg-opacity-10 bg-fixed bg-cover bg-center text-center bg-url['/bg1.png']"
     >
-      <div className='absolute bg-white/20'>
-      </div>
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
