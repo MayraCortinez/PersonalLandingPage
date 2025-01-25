@@ -24,7 +24,6 @@
 /* Botones personalizados */
 .btn {
   background:  linear-gradient(90deg, #f99f6f, #ff5887);
-  border: 2px solid #f139009b;
   color: white;
   padding: 0.5rem 1.5rem;
   font-weight: bold;
