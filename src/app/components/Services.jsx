@@ -22,7 +22,7 @@ const Services = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: sectionInView ? 1 : 0, y: sectionInView ? 0 : 50 }}
           transition={{ duration: 1 }}
-          className="text-3xl font-bold text-gray-800 mb-6 title"
+          className="text-3xl font-bold text-gray-800 mb-6 title colorTitle"
         >
           My Services
         </motion.h2>

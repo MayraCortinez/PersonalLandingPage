@@ -35,7 +35,7 @@ function ProjectsSection() {
     <section id="work" className="py-24 mb-9 w-3/4 m-auto bg-gray-50/20 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="title inline-block font-bold px-6 py-4 mb-6 text-3xl bg-gradient-to-r from-gray-700 to-green-900 bg-clip-text text-transparent rounded-full">
+          <span className="title colorTitle inline-block font-bold px-6 py-4 mb-6 text-3xl bg-gradient-to-r from-gray-700 to-green-900 bg-clip-text text-transparent rounded-full">
             Portfolio
           </span>
 
