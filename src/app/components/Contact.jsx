@@ -76,7 +76,7 @@ const Contact = () => {
               <button
                 type="submit"
                 disabled={isSubmitting || !isValid}
-                className={`btn self-center ${isSubmitting || !isValid ? 'opacity-50 cursor-not-allowed' : ''}`}
+                className={`btn text-lg md:text-xl self-center ${isSubmitting || !isValid ? 'opacity-50 cursor-not-allowed' : ''}`}
               >
                 {isSubmitting ? 'Sending...' : 'Send'}
               </button>

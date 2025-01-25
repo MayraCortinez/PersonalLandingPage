@@ -17,17 +17,18 @@
   font-family: 'Poppins', sans-serif;
   margin: auto;
   overflow-x: hidden;
+  color: rgb(18, 1, 41);
   background: linear-gradient(to right, #75270545, #ff80001e,#8833c430, #47166e36);
 }
 
 /* Botones personalizados */
 .btn {
-  background-color: rgba(247, 246, 246, 0.806);
-  border: 2px solid #ff56229b;
-  color: #fe3b00;
+  background:  linear-gradient(90deg, #f99f6f, #ff5887);
+  border: 2px solid #f139009b;
+  color: white;
   padding: 0.5rem 1.5rem;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 25px;
   transition: all 0.3s ease-in-out;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   font-size: 0.9rem;
@@ -42,7 +43,7 @@
   font-family: 'Helvetica', serif ;
   background-clip: text;
   font-weight: bold; 
-  background: linear-gradient(to right, #3c03f9, #ff4000); 
+  background: linear-gradient(to right, #3c03f9, #ff4b0f); 
   -webkit-background-clip: text; 
   color: transparent; 
 }

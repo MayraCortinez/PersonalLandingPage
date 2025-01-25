@@ -15,7 +15,7 @@ const Services = () => {
     <section
       id="services"
       ref={sectionRef}
-      className="w-3/4 m-auto py-20 px-4 bg-gray-100/80 text-center"
+      className="w-3/4 m-auto py-20 px-4 bg-gray-100/80 text-center bg-url['/bg1.png']"
     >
       <div className="max-w-6xl mx-auto">
         <motion.h2
