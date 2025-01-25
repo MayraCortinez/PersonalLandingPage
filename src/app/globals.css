@@ -40,7 +40,6 @@
 .gradient-text { 
   font-family: 'Helvetica', serif ;
   background-clip: text;
-  font-size: 120px; 
   font-weight: bold; 
   background: linear-gradient(to right, #3c03f9, #ff4000); 
   -webkit-background-clip: text; 
