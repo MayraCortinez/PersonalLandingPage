@@ -32,6 +32,7 @@
   transition: all 0.3s ease-in-out;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   font-size: 0.9rem;
+  animation: float 3s ease-in-out infinite;
 }
 
 .btn:hover {
@@ -48,6 +49,10 @@
   color: transparent; 
 }
 
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
 
 @layer utilities {
   .text-shadow {

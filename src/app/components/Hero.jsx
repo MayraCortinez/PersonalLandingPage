@@ -10,7 +10,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-shadow-creativa sans text-4xl md:text-7xl font-bold tracking-wide transform-gpu gradient-text md:pt-48 p-2"
+          className="text-shadow-creativa sans text-5xl md:text-7xl font-bold tracking-wide transform-gpu gradient-text md:pt-48 p-2"
         >
           Transforming ideas into unique experiences
         </motion.h1>
@@ -18,7 +18,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
-          className="mt-6 flex justify-center gap-6"
+          className="mt-6 flex justify-center gap-6 md:gap-16"
         >
           <a
             href="https://portfoliocortinezmayra.netlify.app/"
@@ -34,6 +34,7 @@ const Hero = () => {
           </a>
         </motion.div>
       </div>
+
     </section>
   );
 }

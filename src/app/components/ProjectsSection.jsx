@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 
 import { Parallax } from 'react-scroll-parallax';
 
@@ -6,7 +7,7 @@ const projects = [
   {
     title: 'Restaurant',
     description: 'Landing Page',
-    image: '/luli.png',
+    image: '/luli.jpg',
     tags: ['UX/UI Design', 'Web Design', 'Web Development'],
     url: 'https://appluli.netlify.app/',
     textContent: "A modern and responsive landing page designed for a local restaurant. This project showcases user-friendly navigation, appealing visuals, and a sleek design for an enhanced dining experience.",
@@ -15,7 +16,7 @@ const projects = [
   {
     title: 'Empanada Fest',
     description: 'Community Manager',
-    image: '/community.png',
+    image: '/community.jpg',
     tags: ['Digital Marketing', 'Social Media', 'Content Creation'],
     url: 'https://www.instagram.com/fiestadelaempanada.gorostiaga',
     textContent: "Led the social media strategy and community management for a local cultural festival. Focused on engaging content creation and building a strong online presence.",
@@ -46,9 +47,11 @@ function ProjectsSection() {
             <div key={project.title} className="grid md:grid-cols-2 gap-16 items-center">
 <Parallax speed={-10}>
   <div className="relative group overflow-hidden rounded-xl shadow-lg">
-    <img
+    <Image
       src={project.image}
       alt={project.title}
+      width={500}
+      height={200}
       className="aspect-video object-cover"
     />
     <div className="absolute inset-0 bg-gradient-to-r from-purple-200 to-green-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

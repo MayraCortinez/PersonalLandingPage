@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <script src="https://kit.fontawesome.com/297aeb8736.js" crossOrigin="anonymous"></script>
       </body>
     </html>
   );
