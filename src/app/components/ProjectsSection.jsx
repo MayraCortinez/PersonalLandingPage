@@ -46,7 +46,7 @@ function ProjectsSection() {
           {projects.map((project, index) => (
             <div key={project.title} className="grid md:grid-cols-2 gap-16 items-center">
 <Parallax speed={-10}>
-  <div className="relative group overflow-hidden rounded-xl shadow-lg">
+  <div className="relative group overflow-hidden rounded-xl shadow-lg opacity-100 group-hover:opacity-0 transition-opacity duration-100 ">
     <Image
       src={project.image}
       alt={project.title}
