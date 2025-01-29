@@ -33,7 +33,7 @@ const Contact = () => {
 
 
   return (
-    <section id="contact" className="mt-10 relative flex items-center justify-center h-lvh  text-center py-40 text-white">
+    <section id="contact" className="mt-10 relative flex items-center justify-center h-full  text-center py-40 text-white">
         {isDarkMode ? <DarkVanta /> : <LightVanta />}
       <div className="relative mx-4 max-w-4xl md:mx-auto backdrop-blur-xl bg-black/10 p-12 rounded-lg">
         <h2 className="text-4xl font-bold mb-6 title text-white">Contact</h2>
