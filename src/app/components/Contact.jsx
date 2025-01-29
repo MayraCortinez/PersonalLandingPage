@@ -91,10 +91,10 @@ const Contact = () => {
       </div>
       <div className="absolute bottom-0 right-0 flex space-x-6 p-6 icon-social">
         <a href="https://wa.me/5491178865748?text=Hi!%20I%20want%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener noreferrer">
-          <Image src="/wp.png" alt="Icono whatsapp" width={48} height={48} className="w-16 h-16 cursor-pointer hover:scale-110" />
+          <Image src="/wp.png" alt="Icono whatsapp" width={48} height={48} className="w-12 h-12 md:w-16 md:h-16 cursor-pointer hover:scale-110" />
         </a>
         <a href="https://www.linkedin.com/in/mayra-cortinez-/" target="_blank" rel="noopener noreferrer">
-          <Image src="/in.png" alt="Icono linkedin" width={48} height={48} className="w-16 h-16 cursor-pointer hover:scale-110" />
+          <Image src="/in.png" alt="Icono linkedin" width={48} height={48} className="w-12 h-12 md:w-16 md:h-16 cursor-pointer hover:scale-110" />
         </a>
       </div>
     </section>
