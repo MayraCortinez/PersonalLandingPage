@@ -2,7 +2,7 @@
 
 A personal website built with Next.js.
 
-![Me](/me.jpg)
+![Me](/public/me.jpg)
 
 
 ## Features
