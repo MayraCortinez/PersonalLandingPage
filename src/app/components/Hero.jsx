@@ -1,10 +1,11 @@
 'use client'
 import { motion } from "framer-motion";
+import ThemeToggle from "./ThemeToggle";
 
 const Hero = () => {
   return (
-    <section className="relative h-lvh overflow-hidden flex items-end justify-center bg-cover bg-center bg-fixed" style={{ backgroundImage: `url('/me.png')` }}>
-      <div className="absolute inset-0 bg-gradient-to-t from-white/55 via-white/50 to-transparent"></div>
+    <section className="relative h-lvh overflow-hidden flex items-end justify-center bg-cover bg-center bg-fixed" style={{ backgroundImage: `url('/me.jpg')` }}>
+      <div className="absolute inset-0 bg-hero"></div>
       <div className="relative z-10 text-center text-white px-4 pb-12">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
@@ -22,19 +23,19 @@ const Hero = () => {
         >
           <a
             href="https://portfoliocortinezmayra.netlify.app/"
-            className="btn bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-all transform hover:scale-105 md:text-lg"
+            className="btn text-white px-6 py-3 rounded-lg md:text-lg"
           >
             Explore Portfolio
           </a>
           <a
             href="#contact"
-            className="btn bg-accent text-white px-6 py-3 rounded-lg hover:bg-accent/90 transition-all transform hover:scale-105 md:text-lg"
+            className="btn text-white px-6 py-3 rounded-lg md:text-lg"
           >
             Contact Me
           </a>
         </motion.div>
       </div>
-
+    <ThemeToggle />
     </section>
   );
 }

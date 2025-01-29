@@ -33,7 +33,7 @@ const projects = [
 
 function ProjectsSection() {
   return (
-    <section id="work" className="py-24 mb-9 w-3/4 m-auto bg-gray-50/20 relative overflow-hidden">
+    <section id="work" className="py-24 mb-9 w-3/4 m-auto relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="title colorTitle inline-block font-bold px-6 py-4 mb-6 text-3xl bg-gradient-to-r from-gray-700 to-green-900 bg-clip-text text-transparent rounded-full">
@@ -54,9 +54,9 @@ function ProjectsSection() {
       height={200}
       className="aspect-video object-cover"
     />
-    <div className="absolute inset-0 bg-gradient-to-r from-purple-200 to-green-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-    <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-      <p className="text-sm md:text-lg text-gray-600">{project.textContent}</p>
+    <div className="w-full h-full absolute overflow-hidden inset-0 bg-card-project opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+    <div className="w-full h-full absolute overflow-hidden inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+    <p className="text-sm md:text-lg p-4">{project.textContent}</p>
     </div>
   </div>
 </Parallax>
@@ -64,12 +64,12 @@ function ProjectsSection() {
 
               <div className="space-y-6">
                 <h3 className="text-2xl font-semibold bg-gradient-to-r from-orange-500 to-blue-200 bg-clip-text text-transparent">{project.title}</h3>
-                <p className="text-gray-600">{project.description}</p>
+                <p className="text italic">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-3 py-1 text-sm bg-gray-100 text-gray-600 rounded-full"
+                      className="py-1 text-sm "
                     >
                       {tag}
                     </span>
@@ -77,7 +77,7 @@ function ProjectsSection() {
                 </div>
                 <a
                   href={project.url}
-                  className="text-lg md:text-xl inline-flex items-center text-green-500 hover:text-purple-500 transition-colors"
+                  className="text-lg md:text-xl inline-flex items-center text-blue-500 hover:text-purple-500 transition-colors"
                 >
                   Explore Project
                   <svg
