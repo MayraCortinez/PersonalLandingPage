@@ -11,7 +11,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-shadow-creativa sans text-5xl md:text-7xl font-bold tracking-wide transform-gpu gradient-text md:pt-48 p-2"
+          className="text-shadow-creativa sans p-16 text-5xl md:text-7xl lg:text-9xl font-bold tracking-wide transform-gpu gradient-text md:pt-48 md:p-2"
         >
           Transforming ideas into unique experiences
         </motion.h1>
